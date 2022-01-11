@@ -69,7 +69,7 @@ def DCT(f):
     
      Computes the 2-D Discrete Cosine Transform of input image f.
      It uses an even extension of f, along with the 2D-DFT.
-     This function is the inverse of myIDCT.
+     This function is the inverse of IDCT.
     
      Input:
       f is a 2-D array of real values
@@ -94,7 +94,7 @@ def IDCT(F):
     
      Computes the 2-D Inverse Discrete Cosine Transform (IDCT) of input
      array Fdct. It uses an even extension of Fdct, along with the 2D-IDFT.
-     This function is the inverse of myDCT.
+     This function is the inverse of DCT.
     
      Input:
       F is a 2-D array of real values
